@@ -1,0 +1,26 @@
+log
+- menghilangkan code pasien_ppi 
+- mengganti m_pasien menjadi m_pasienppi di c_pasienppi
+- update C_pasien menjadi C_pasienppi di kirim.php
+- mengganti bagian senddata di C_pasienppi
+- banyak sampai ga kutulis (buat input pasien ppi)
+
+daftar bisa
+- search pasien irj (menggunakan nomor IPD)
+- proses data ppi
+- change password admin
+- hapus user di bagian administrator
+- input pasien ppi (exclude autoincrement, idx, tgl-entry)
+
+daftar bug
+- gabisa upload gambar saat daftar user
+- tidak bisa menyimpan user baru
+- tidak bisa browse photo pada bagian user (apalagi ngupload, nyimpan)
+- tidak bisa menambah role baru
+- gabisa simpan input pasien ke database
+- gabisa nyimpan menu baru
+- upload foto admin (bisanya browse)
+- login lucu kalau udah lama ga make, menu RSMHnya masih terlihat
+- Gabisa ngubah dari user biasa ke admin di bagian administrator (bagian tombol save ga berfungsi)
+- KLIK SAVE DI BAGIAN USER SETTING MENGAKIBATKAN DI DELETENYA DYN_ROLE_MENU
+- keadaan error saat input pasien ppi (asumsinya inputnya selalu benar)
